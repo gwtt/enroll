@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="enroll:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/enroll_war</output-path>
+    <root id="archive" name="enroll_war.war">
+      <element id="artifact" artifact-name="enroll:war exploded" />
+    </root>
+  </artifact>
+</component>

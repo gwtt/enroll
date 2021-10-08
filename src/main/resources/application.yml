@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql.oauth:3306/enroll?useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: qingyou
+    password: qingyou+1s
+  mybatis:
+    configuration:  
+      map-underscore-to-camel-case: true
+  redis:
+    host: mp-redis.local
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+  file:
+    path: /var/log/tomcat
